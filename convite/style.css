@@ -1,0 +1,57 @@
+@font-face {
+    font-family: titulo;
+    src: url(./fontes/Yomogi-Regular.ttf);
+}
+@font-face {
+    font-family: lista;
+    src: url(./fontes/IndieFlower-Regular.ttf);
+}
+body{
+    background:black;
+}
+#cartao{
+    background-image: url(./image/backgorund.png);
+    background-size:cover;
+    height: 200px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 0.5px 0px 19.5px 20px;
+}
+h1{
+    font-weight: 100;
+    font-family: titulo;
+    word-spacing: 10px;
+    letter-spacing: 1.4px;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+#lista{
+    text-transform: uppercase;
+    font-family: lista;
+    letter-spacing: 1.2px;
+    padding-right: 40%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#ins:hover{
+    color:rgb(201, 77, 149);
+}
+#tt:hover{
+    color:rgb(84, 207, 207);
+}
+#yot:hover{
+    color:red;
+}
+
+#insta{
+    list-style-image: url(./image/Insta.png);
+}
+#twt{
+    list-style-image:url(./image/Twitter.png);
+}
+#yt{
+    list-style-image:url(./image/Youtube.png);
+}
